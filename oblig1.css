@@ -12,9 +12,8 @@ nav {
 }
 
 main {
-    width: 70%;
     margin: auto;
-    margin-top: 60px;
+    margin: 60px 200px 0 200px;
 }
 
 #homebutton {
@@ -38,6 +37,7 @@ main {
     height: 49px;
     border-radius: 6px;
     margin-top: 5px;
+    font-size: 25px;
 }
 .contenttext {
     margin-top: 30px;
@@ -48,6 +48,7 @@ main {
     height: 135px;
     border-radius: 6px;
     margin-top: 5px;
+    font-size: 17px;
 }
 
 #addcard {
@@ -59,19 +60,18 @@ main {
     background: #56D4C2 0% 0% no-repeat padding-box;
     color:#FFFFFF;
 }
-/*@Locolicious*/
+
 #gridblock {
-    margin-top: 50px;
+    margin-top: 40px;
     display: grid;
     grid-template-columns: 30% 30% 30%;
     grid-template-rows: 30% 30% 30%;
     column-gap: 40px;
     row-gap: 49px;
-
+    justify-content: center;
 }
 
 .todoarticle {
-    display: block;
     height: 163px;
     margin-top: 20px;
     background: #FFFFFF 0% 0% no-repeat padding-box;
@@ -106,3 +106,50 @@ main {
     border-radius: 5px;
     color: #FFFFFF;
 }
+
+@media (max-width: 1199.98px) {
+    #gridblock {
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 30% 30% 30%;
+        column-gap: 40px;
+        row-gap: 49px;
+        justify-content: center;
+    }
+    main {
+        margin: auto;
+        margin: 60px 150px 0 150px;
+    }
+
+}
+
+@media (max-width: 991.98px) {
+    #gridblock {
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 30% 30% 30%;
+        column-gap: 40px;
+        row-gap: 49px;
+        justify-content: center;
+    }
+
+    main {
+        margin: 60px 50px 0 50px;
+    }
+}
+
+@media (max-width: 575.98px) {
+    #gridblock {
+        grid-template-columns: 30% 30% 30%;
+        grid-template-rows: 48% 48%;
+        column-gap: 40px;
+        row-gap: 49px;
+    }
+
+    main {
+        margin: 60px 50px 0 50px;
+        width: 475px;
+    }
+}
+
+
+
+
