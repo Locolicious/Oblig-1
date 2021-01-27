@@ -132,21 +132,22 @@ main {
     }
 
     main {
-        margin: 60px 50px 0 50px;
+        margin: 60px 80px 0 80px;
     }
 }
 
-@media (max-width: 575.98px) {
+@media (max-width: 800px) {
+
     #gridblock {
-        grid-template-columns: 30% 30% 30%;
-        grid-template-rows: 48% 48%;
-        column-gap: 40px;
-        row-gap: 49px;
+        grid-template-columns: 100%;
+        grid-template-rows: 163px  163px 163px 163px 163px 163px;
+        column-gap: 0px;
+        row-gap: 10px;
+        margin-top: 5px;
     }
 
     main {
         margin: 60px 50px 0 50px;
-        width: 475px;
     }
 }
 
